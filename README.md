@@ -1,1 +1,36 @@
-# P13_CyA_DyV
+## Práctia 13 - Divide y Vencerás
+### Ángel Julián Bolaño Campos
+--- 
+## Objetivo
+El objetivo de la práctica es desarolllar la ordenación por fusión (merge sort) implementando su variante recursiva, y en caso de optar a la máxima calificación, se implementará también la versión iterativa.
+
+## Desarrollo
+Para alcanzar los objetivos, se debe llevar a cabo una implementación mediante el lenguaje de programación C++ de ciertos algoritmos descritos mediante pseudo-código, tanto en los apuntes del Tema 8, como en el libro de referencia de la parte de Algoritmia [Brassard y Bratley (1998)], en concreto, en la página 258, sección 7.4.1.
+
+En el GitHub hay un proyecto con los ficheros necesarios (.hpp, .cpp y main) para el desarrollo de la práctica, que habrá de transformase a la guía de estilos de Google C++.
+
+## Requisitos mínimos
+
+Para superar la práctica, los requisitos mínimos exigidos son:
+
+Desarrollar la implementación de los dos métodos siguientes métodos de forma correcta, sin errores de compilación:
+~~~
+void sorted_vector_t::create_vector_sentinel(int l, int r, vector<int>& v);
+void sorted_vector_t::merge(int l, int c, int d);
+~~~
+Llevar a cabo las modificaciones de código requeridas por el profesorado.
+
+## Requisitos opcionales
+Dentro de la evaluación global de la práctica, se valorará positivamente la implementación iterativa equivalente del algoritmo:
+~~~
+void sorted_vector_t::merge_sort_ite(void);
+~~~
+## Evaluación
+Se evaluará positivamente los siguientes aspectos:
+
+El grado de funcionamiento de la práctica, y si desarrollan requisitos opcionales o mejoras significativas.
+Buen diseño y limpieza.
+Teniendo superados los aspectos anteriormente descritos, una evaluación orientativa sería la siguiente:
+
+- Si se desarrollan los dos métodos descritos anteriormente: 7 puntos.
+- Si se desarrolla además del punto anterior un algoritmo con la implementación iterativa valorándose la sencillez (en longitud y comprensión) del diseño propuesto: 10 puntos.
